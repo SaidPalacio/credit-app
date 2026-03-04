@@ -1,0 +1,76 @@
+:host {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #f3f6fb;
+  min-height: 100vh;
+}
+
+.table-card {
+  width: 100%;
+  max-width: 1100px;
+  background: white;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.table-header {
+  margin-bottom: 20px;
+}
+
+.table-header h2 {
+  color: #111827;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 13px;
+}
+
+.filters button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background: #1e40af;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #2563eb;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background 0.2s ease;
+}
+
+tbody tr:hover {
+  background: #f9fafb;
+}
