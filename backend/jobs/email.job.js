@@ -27,7 +27,7 @@ setInterval(async () => {
   try {
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: 'saidpalacio10@gmail.com',
+      to: 'fyasocialcapital@gmail.com',
       subject: 'Nuevo Crédito Registrado',
       text: `
 Cliente: ${credit.client_name}
